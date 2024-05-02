@@ -1,4 +1,7 @@
 /* Reset styles */
+body {
+  padding: 30px;
+}
 h1,
 h2,
 h3,
@@ -8,7 +11,9 @@ h6,
 p {
   margin: 0;
 }
-
+h1 {
+  padding: 20px;
+}
 p:last-child {
   margin-bottom: 0;
 }
@@ -18,7 +23,20 @@ ul {
   padding: 0;
   list-style: none;
 }
-
+li {
+  background-color: rgb(135, 248, 224);
+  border: 1px solid #7c7ef3;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  padding: 15px;
+  font-size: 20px;
+  width: 85px;
+  text-align: center;
+}
+li:last-child {
+  background-color: rgb(243, 241, 98);
+  border: 1px solid #f1950a;
+}
 a {
   color: currentColor;
   text-decoration: none;
