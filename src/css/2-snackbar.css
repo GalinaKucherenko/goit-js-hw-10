@@ -1,0 +1,23 @@
+.delay {
+    display: flex;
+    flex-direction: column;
+}
+.input-delay {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+fieldset {
+    width: 200px;
+    padding: 10px;
+    margin: 0;
+}
+.btn {
+    width: 223px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.btn:hover {
+    background-color: #bafcf3;
+    border-color: #bafcf3;
+}

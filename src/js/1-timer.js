@@ -1,5 +1,7 @@
 import flatpickr from 'flatpickr';
+import "flatpickr/dist/flatpickr.min.css";
 import iziToast from "izitoast";
+import "izitoast/dist/css/iziToast.min.css";
 
 let getRef = selector => document.querySelector(selector);
 const imputDatePickerRef = getRef('#datetime-picker');
@@ -57,7 +59,7 @@ function currentDifferenceDate(selectedDate) {
   if (selectedDate < currentDate) {
     btnStartRef.setAttribute('disabled', true);
     return iziToast.error({
-      message: 'Please choose a date in the future',
+      message: 'Please choose a date in the future', position: 'topCenter'
     });
   }
 
